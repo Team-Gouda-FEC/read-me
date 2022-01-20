@@ -1,230 +1,110 @@
-<div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">project_title</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
-</div>
+<h1 align="center" Gouda Catwalk </h1>
 
+## Contributors
 
+<img align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/80839958?v=4" width="44" height="44" alt="@bexter89">
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+**Rebekah Cruz**<br>
+[GitHub](https://github.com/bexter89) • [LinkedIn](https://www.linkedin.com/in/rebekah-cruz/)
 
+<img align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/80354714?s=88&amp;v=4" width="44" height="44" alt="@mariaykim">
 
+**Maria Kim**<br>
+[GitHub](https://github.com/mariaykim) • [LinkedIn](https://www.linkedin.com/in/mariakim21/)
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<img align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/50255466?v=4" width="44" height="44" alt="@robwilliams-it">
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+**Mattew Sewell**<br>
+[GitHub](https://github.com/thechosenginger) • [LinkedIn](https://www.linkedin.com/in/matthew-sewell-75470262/)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<img align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/85043190?s=88&amp;v=4" width="44" height="44" alt="@robwilliams-it">
 
+**Rob Williams**<br>
+[GitHub](https://github.com/robwilliams-it) • [LinkedIn](https://www.linkedin.com/in/rob-williams-swe/)
 
+## Table of Contents
+ - [About](#about)
+ - [Installation](#install)
+ - [Technologies](#technologies)
+ - [Product Overview (Rebekah Cruz)](#overview)
+ - [Related Products & Outfit List (Maria Kim)](#products)
+ - [Questions & Answers (Matthew Sewell)](#questions)
+ - [Ratings and Reviews (Rob Williams)](#reviews)
+ 
+## About<a name="about"></a>
 
-### Built With
+**Project Overview**
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+>Given a set of business requirements, the team was tasked with re-designing a landing page for an online clothing store. We used the React framework with Material UI for our frontend build, and integrated it with an Express server to grab data from a provided API.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Installation <a name="install"></a>
 
+1. Download the repo using git
+```
+git clone https://github.com/Team-Gouda-FEC/gouda-catwalk.git
+```
+2. Install dependencies
+```
+npm install
+```
+3. Create a `config.js` file in the root directory
+```
+module.exports = {
+  TOKEN: 'YOUR TOKEN HERE',
+};
+```
+* Note, this file is ignored in .gitignore but is required in order to pull data from the API.
 
+4. Run the Webpack compiler
+```
+npm run build
+```
 
-<!-- GETTING STARTED -->
-## Getting Started
+5. Run the App
+```
+npm start
+```
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+## Technologies <a name="technologies"></a>
+- [NodeJS](https://nodejs.org/en/)
+- [Express ](https://expressjs.com/)
+- [React](https://reactjs.org/)
+- [Webpack](https://webpack.js.org/)
+- [Babel](https://babeljs.io/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Material UI](https://mui.com/)
 
-### Prerequisites
+## Product Overview (Rebekah Cruz) <a name="overview"></a>
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+<img src="https://tinyimg.io/i/BTEKC61.gif" alt="product-overview" border="0" />
 
-### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+**Product Overview Section**
+* A carousel displays the current item, which can be maximized to full screen to get a larger view of the product's image, and navigated via the mouse or keyboard. 
+* Each selected item may have additional styles which, if avaialble, will be rendered on the right of the screen as thumbnails, with the current selected item having a check mark.
+* Blurbs are visible below the carousel that displays various features associated to the current selected item
+* To the right of the carousel, you can select a size and quantity, depending on the available inventory
+* The item price dynamically renders according to whether or not the selected item is on sale
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
+## Related Products & Outfit Section (Maria Kim) <a name="products"></a>
+<img src="https://tinyimg.io/i/FSVc4bq.gif" alt="related-products-and-outfits" border="0" />
 
+**Related Products Section**
+* A React-Grid-Carousel component displays four products related to the featured product in the overview section
+* Each product is represented in a Material UI Card component
+* To change the featured product, the customer will click on a related product card
+* The star icon located at the top of a product card when clicked will popup a modal comparing the featured products details with the related product details
 
-<!-- USAGE EXAMPLES -->
-## Usage
+**Outfits Section**
+* A React-Grid-Carousel component displays at most three outfits that the customer has indicated they are interested in
+* Customers can add or remove products from their Outfits Section by clicking on the star icon
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+## Questions and Answers (Matthew Sewell) <a name="questions"></a>
+<img src="https://tinyimg.io/i/Dk0BSW7.gif" alt="questions-answers" border="0" />
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Ratings and Reviews (Rob Williams) <a name="reviews"></a>
+<img src="https://tinyimg.io/i/xgj7byY.gif" alt="ratings-reviews" border="0" />
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
